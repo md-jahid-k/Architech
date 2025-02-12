@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #feecd8; */
+}
+/* header start */
+.header{
+    background-color: #feecd8;
+    margin: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #424242;
+}
+.header-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    align-items: center;
+}
+.header-details h1{
+    font-size: 54px;
+    font-weight: 700;
+    padding: 40px 0px 20px 0px;
+    color: #131313;
+}
+.header-details p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #727272;
+    padding-bottom: 30px;
+}
+button{
+    background-color: #FF900E;
+    border: none;
+    width: 125px;
+    height: 45px;
+    border-radius: 10px;
+    justify-content: center;
+}
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header-banner{
+    margin: 50px 200px 45px 200px;
+
+}
+.header-banner img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+/* Team start */
+.Team{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.Team-banner{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 12px;
+}
+.Team-banner img{
+    width: 100%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-title{
+margin-bottom: 20px;
+}
+.team-title h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+.normal{
+    font-weight: 100;
+    color: #727272;
+}
+.orange{
+    color: #FF900E  ;
+}
+.description p{
+    font-size: 15px;
+    font-weight: 50;
+    color: #727272;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.team-button{
+    display: flex;
+    justify-content: center;
+}
+/* architech start */
+.architech{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.ar-details{
+    display: flex;
+    flex-direction: column;
+}
+.box-header h1{
+    font-size: 35px;
+    font-weight: 800;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: -5px 0px #FF900E;
+}
+.box-header{
+    margin-bottom: 20px;
+}
+.box-header p{
+    font-size: smaller;
+    font-weight: 400;
+    color: #727272;
+    line-height: 20px;
+}
+.img{
+    margin-left: 50px;
+}
+.ar-bannar img{
+    width: 100%;
+    height: 630px;
+    /* padding-left: 50px; */
+    /* margin-bottom: 40px; */
+}
+.ar-button{
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    border-radius: 0px;
+    margin-left: 0px;
+}
+.years{
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.box{
+    padding: 15px;
+    box-shadow: 0px 0px 10px 10px #f7f5f5;
+    border-radius: 5px;
+}
+.box h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.box p{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* fact starts */
+.facts{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.facts-title{
+    width: 383px;
+}
+.facts-title h2{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+.facts-title p{
+    font-size: small;
+    color: #727272;
+}
+.facts-rating{
+    display: flex;
+    justify-content: space-around;
+}
+.rating{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.rating img{
+    width: 30px;
+}
+.rating h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.rating p{
+    font-size: medium;
+    font-weight: 600;
+    color: #727272;
+}
